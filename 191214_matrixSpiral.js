@@ -11,7 +11,7 @@ The output should be: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 */
 
 
-const spiral = (arr) => {
+const matrixSpiral = (arr) => {
   // x is horizontal
   // y is vertical
   // x shift is on reverse trip after 1st iter
@@ -32,24 +32,20 @@ const spiral = (arr) => {
         yStart += 1;
         while (y < yEnd) {
           outputArr.push(arr[y][x]);
-          // console.log("down: ", outputArr);
           y += 1;
         }
         yEnd -= 1;
         while (x > xStart) {
           outputArr.push(arr[y][x]);
-          // console.log("left: ", outputArr);
           x -= 1;
         }
         xStart += 1;
         while (y > yStart) {
           outputArr.push(arr[y][x]);
-          // console.log("up: ", outputArr);
           y -= 1;
         }
       }
       outputArr.push(arr[y][x]);
-      // console.log("right: ", outputArr);
           
     }
   }
@@ -64,4 +60,4 @@ const input = [
   [16, 17, 18, 19, 20],
   [21, 22, 23, 24, 25]
 ];
-console.log(spiral(input));
+console.log(matrixSpiral(input));
