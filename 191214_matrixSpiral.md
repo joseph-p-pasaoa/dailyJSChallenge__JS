@@ -13,7 +13,7 @@ The output should be: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 ---
 
-### My Solution
+### My solution
 
 ```
 const matrixSpiral = (arr) => {
