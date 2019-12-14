@@ -58,15 +58,26 @@ const matrixSpiral = (arr) => {
 }
 ```
 ```
-const input = [
+const input1 = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+const input2 = [
   [1, 2, 3, 4, 5],
   [6, 7, 8, 9, 10],
   [11, 12, 13, 14, 15],
   [16, 17, 18, 19, 20],
   [21, 22, 23, 24, 25]
 ];
-console.log(matrixSpiral(input)); =>
+console.log(matrixSpiral(input1));
+console.log(matrixSpiral(input2));
 
+// =>
+[
+  1, 2, 3, 6, 9,
+  8, 7, 4, 5
+]
 [
    1,  2,  3,  4,  5, 10, 15, 20,
   25, 24, 23, 22, 21, 16, 11,  6,
