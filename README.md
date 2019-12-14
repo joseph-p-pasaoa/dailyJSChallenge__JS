@@ -4,7 +4,7 @@ Repository of all my work on our daily warmup challenges.
 
 ---
 
-## DEC 9: sumOfSubArrays
+## [DEC 9: sumOfSubArrays](./191209_sumOfSubArrays.md)
 
 A subarray of an array is a consecutive sequence of zero or more values taken out of that array.
 
@@ -22,7 +22,7 @@ For example, given [1, 3, 7], you'd output 36, because:
 
 ---
 
-## DEC 10: tripletsForZero
+## [DEC 10: tripletsForZero](./191210_tripletsForZero.md)
 
 Given an array of integers, write a function that finds all the unique triplets in an array that add up to zero.
 A triplet is any 3 numbers in the array. Duplicates not allowed.
@@ -36,7 +36,7 @@ Output : [[1, -2, 1]]
 
 ---
 
-## DEC 11: howManyHellos
+## [DEC 11: howManyHellos](./191211_howManyHellos.md)
 
 Given an array of letters, how many times can we spell the word 'HELLO' if each letter in the array 
 can be used only once? Eg, for this array we can spell 'hello' only once:
@@ -46,7 +46,7 @@ can be used only once? Eg, for this array we can spell 'hello' only once:
 
 ---
 
-## DEC 14: matrixSpiral
+## [DEC 14: matrixSpiral](./191214_matrixSpiral.md)
 
 Given an x by y matrix(array of arrays) of integers, write a function that returns the integers in a 
 spiral pattern. For example, for this matrix...
