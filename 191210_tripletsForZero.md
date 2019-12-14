@@ -12,9 +12,11 @@ Output : [[1, -2, 1]]
 
 ---
 
-### My solution
+### My first solution
 
 ```
+// brute force. time: O(n^3)
+
 const tripletsForZero = (arr) => {
   const makeKey = (a, b, c) => {
     const sorted = [a];
@@ -65,4 +67,12 @@ console.log(tripletsForZero(input3));
 [ [ 0, -1, 1 ], [ 2, -3, 1 ] ]
 [ [ 1, -2, 1 ] ]
 [ [ 4, -2, -2 ], [ 4, -3, -1 ], [ 4, 0, -4 ] ]
+```
+
+## Alternative solutions
+
+```
+const tripletsForZero = (arr) => {
+
+}
 ```
