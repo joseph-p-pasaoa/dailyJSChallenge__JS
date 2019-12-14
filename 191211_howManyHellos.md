@@ -8,9 +8,11 @@ can be used only once? Eg, for this array we can spell 'hello' only once:
 
 ---
 
-### My solution
+### My first solution
 
 ```
+// time: O(n)
+
 const howManyHellos = (arr) => {
   const counter = {
     h: true,
@@ -45,4 +47,12 @@ console.log(howManyHellos(input2));
 =>
 2
 3
+```
+
+## Alternative solutions
+
+```
+const howManyHellos = (arr) => {
+
+}
 ```
