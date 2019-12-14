@@ -13,9 +13,11 @@ The output should be: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 ---
 
-### My solution
+### My first solution
 
 ```
+// time: O(n^2)?
+
 const matrixSpiral = (arr) => {
   // x is horizontal
   // y is vertical
@@ -84,4 +86,12 @@ console.log(matrixSpiral(input2));
    7,  8,  9, 14, 19, 18, 17, 12,
   13
 ]
+```
+
+## Alternative solutions
+
+```
+const matrixSpiral = (arr) => {
+
+}
 ```
