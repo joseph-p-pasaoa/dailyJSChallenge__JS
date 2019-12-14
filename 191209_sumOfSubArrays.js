@@ -28,7 +28,7 @@ const sumOfSubArrays = (arr) => {
 }
 
 
-/* also outputs array of all subarrays
+/* VERSION THAT ALSO OUTPUTS ARRAY OF SUBARRAYS
 const sumOfSubArrays = (arr) => {
   const finalArr = [[]];
   let sum = 0;
