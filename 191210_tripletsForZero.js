@@ -32,13 +32,11 @@ const tripletsForZero = (arr) => {
   for (let i = 0; i < arr.length - 2; i++) {
     for (let j = i + 1; j < arr.length - 1; j++) {
       for (let k = i + 2; k < arr.length; k++) {
-        if (!idMap[arr[i]] || !idMap[arr[j]] || !idMap[arr[k]]) { // filters out partial arrays
-          if (arr[i] + arr[j] + arr[k] === 0) {
-            const tripletId = makeKey(arr[i], arr[j], arr[k]);
-            if (!idMap[tripletId]) {
-              output.push([arr[i], arr[j], arr[k]]);
-              idMap[tripletId] = true;
-            }
+        if (arr[i] + arr[j] + arr[k] === 0) {
+          const tripletId = makeKey(arr[i], arr[j], arr[k]);
+          if (!idMap[tripletId]) {
+            output.push([arr[i], arr[j], arr[k]]);
+            idMap[tripletId] = true;
           }
         }
       }
