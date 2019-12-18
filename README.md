@@ -60,3 +60,12 @@ spiral pattern. For example, for this matrix...
 The output should be: [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
 ---
+
+## [DEC 17: stringInt](./191217_stringInt.md)
+
+Write a function that converts an integer to its base 10 string representation. 
+Do not use `toString` or similar builtin methods. Convert a number into its string representation.
+
+1024 => "1024"
+
+111 => "111"
