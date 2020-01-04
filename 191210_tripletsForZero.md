@@ -12,6 +12,10 @@ Output : [[1, -2, 1]]
 
 ---
 
+[:: my solutions file](./191210_tripletsForZero.js)
+
+---
+
 ### My first solution
 
 ```

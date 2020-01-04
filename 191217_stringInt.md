@@ -9,6 +9,10 @@ Do not use `toString` or similar builtin methods. Convert a number into its stri
 
 ---
 
+[:: my solutions file](./191217_stringInt.js)
+
+---
+
 ### My first solution
 
 ```

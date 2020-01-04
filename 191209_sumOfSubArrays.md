@@ -16,6 +16,10 @@ For example, given [1, 3, 7], you'd output 36, because:
 
 ---
 
+[:: my solutions file](./191209_sumOfSubArrays.js)
+
+---
+
 ### My first solution
 
 ```

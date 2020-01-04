@@ -6,6 +6,10 @@ Bonus: Write a recursive function that console.log all the elements of an array.
 
 ---
 
+[:: my solutions file](./191216_recursiveLog.js)
+
+---
+
 ### My first solution
 
 ```

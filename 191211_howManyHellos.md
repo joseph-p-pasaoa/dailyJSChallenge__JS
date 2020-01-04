@@ -8,6 +8,10 @@ can be used only once? Eg, for this array we can spell 'hello' only once:
 
 ---
 
+[:: my solutions file](./191211_howManyHellos.js)
+
+---
+
 ### My first solution
 
 ```
