@@ -14,7 +14,7 @@ You can achieve this recursive or iteratively. The iterative approach will need 
 
 ---
 
-[:: my code file](./200104_howManyElements.js)
+[:: my solutions file](./200104_howManyElements.js)
 
 ---
 
