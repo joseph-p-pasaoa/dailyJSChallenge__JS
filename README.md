@@ -4,6 +4,22 @@ Repository of all my work on our daily warmup challenges.
 
 ---
 
+## [JAN 4: howManyElements](./200104_howManyElements.md)
+
+Given an array of arrays with an unknown number of nested levels, count the total number of elements.
+Example for:
+```
+arr = [1, [2, 3], [[["hello"], [5, 6], 7, 8], [9]]]
+=> 9 because there are 8 numbers and 1 string
+```
+The array contents might be of any type
+
+Hints:
+You will need to tell apart arrays from strings, numbers and other data types.
+You can achieve this recursive or iteratively. The iterative approach will need the help of a stack
+
+---
+
 ## [DEC 17: stringInt](./191217_stringInt.md)
 
 Write a function that converts an integer to its base 10 string representation. 
